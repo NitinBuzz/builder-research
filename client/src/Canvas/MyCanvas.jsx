@@ -20,7 +20,7 @@ export default class MyCanvas extends Component {
     }
     render() {
         return (
-            <div>
+            <div id="canvas">
                 <canvas id="c" />
             </div>
         )

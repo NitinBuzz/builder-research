@@ -1,3 +1,9 @@
 #app {
-    margin: 20px;
+    margin-left: 20px;
+}
+
+#c {
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
 }
