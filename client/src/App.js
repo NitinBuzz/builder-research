@@ -1,4 +1,5 @@
 import React from 'react';
+import MyCanvas from './Canvas/MyCanvas'
 import './App.css';
 
 class App extends React.Component {
@@ -15,9 +16,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Hello, world!</h1>
-        <h2>It is {this.state.data}</h2>
+      <div id="app">
+        <h3>React Client Status ok</h3>
+        <h3>Node Server Status {this.state.data}</h3>
+        <MyCanvas />
       </div>
     );
   }

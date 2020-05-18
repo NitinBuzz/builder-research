@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import * as fabric from "./lib/fabric";
+// import "./lib/jquery-3.4.1";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
